@@ -1,5 +1,7 @@
 # sticky-module
 
+[![build status](https://github.com/WebReflection/sticky-module/actions/workflows/node.js.yml/badge.svg)](https://github.com/WebReflection/sticky-module/actions) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/sticky-module/badge.svg?branch=main)](https://coveralls.io/github/WebReflection/sticky-module?branch=main)
+
 A Symbol based leaky utility to store or retrieve a module, so that libraries can actually be sure if these are re-bundled elsewhere they still work as expected or do not bootstrap twice.
 
 ```js
