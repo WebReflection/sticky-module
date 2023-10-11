@@ -1,6 +1,6 @@
 {
   "name": "sticky-module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Symbol based leaky utility to store or retrieve a module",
   "main": "./cjs/index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "coveralls": "c8 report --reporter=text-lcov | coveralls",
     "test": "c8 node test/index.js"
   },
-  "keywords": ["sticky", "module"],
+  "keywords": [
+    "sticky",
+    "module"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
