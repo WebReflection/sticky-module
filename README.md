@@ -19,7 +19,7 @@ known;    // `false`
 // hence exact same random value `a` had before
 [{a, b}, known] = stickyModule('@custom/name', {
   a: Math.random(),
-  b: 'let it'
+  b: 'nope, already there'
 });
 
 known;    // this time it's `true`
