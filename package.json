@@ -1,6 +1,6 @@
 {
   "name": "sticky-module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Symbol based leaky utility to store or retrieve a module",
   "main": "./cjs/index.js",
   "scripts": {
