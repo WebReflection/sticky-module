@@ -2,6 +2,14 @@
 
 [![build status](https://github.com/WebReflection/sticky-module/actions/workflows/node.js.yml/badge.svg)](https://github.com/WebReflection/sticky-module/actions) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/sticky-module/badge.svg?branch=main)](https://coveralls.io/github/WebReflection/sticky-module?branch=main)
 
+- - -
+
+### ⚠️ Maintained Elsewhere
+
+This module is definitevely too small to be a package a part so it's been moved into https://github.com/WebReflection/utils and it's reachable via *CDN* as `https://esm.run/@webreflection/utils/sticky` or by any other usual mean.
+
+- - -
+
 A Symbol based leaky utility to store or retrieve a module, so that libraries can actually be sure if these are re-bundled elsewhere they still work as expected or do not bootstrap twice.
 
 ```js
